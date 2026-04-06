@@ -1,5 +1,6 @@
 * {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .site-full {
@@ -8,7 +9,8 @@
 }
 
 .hero {
-
+    box-sizing: border-box;
+    padding: 15px 100px;
 }
 
 .secondary {
@@ -28,9 +30,79 @@
 }
 
 .header {
-
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .hero, .footer {
     background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.hero-main {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hero-text, li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text {
+    margin-bottom: 20px;
+}
+
+.hero-right {
+    flex: 1;
+    margin: auto;
+}
+
+.placeholder {
+    width: 400px;
+    height: 200px;
+    background-color: #6d747d;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 20px;
+    margin-bottom: 20px;
 }
