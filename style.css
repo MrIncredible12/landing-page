@@ -1,0 +1,36 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.site-full {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+
+}
+
+.secondary {
+
+}
+
+.testimonial {
+
+}
+
+.call-action {
+
+}
+
+.footer {
+
+}
+
+.header {
+
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
