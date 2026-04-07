@@ -18,7 +18,9 @@
 }
 
 .testimonial {
-
+    box-sizing: border-box;
+    padding: 50px 150px;
+    background-color: #E5E7EB;
 }
 
 .call-action {
@@ -140,4 +142,15 @@ h2 {
     width: 150px;
     text-align: center;
     flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+strong {
+    font-size: 18px;
 }
