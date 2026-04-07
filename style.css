@@ -14,7 +14,7 @@
 }
 
 .secondary {
-
+    margin: 50px 100px;
 }
 
 .testimonial {
@@ -95,6 +95,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
 }
 
 button {
@@ -105,4 +106,38 @@ button {
     border: 0;
     padding: 5px 20px;
     margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px #1F2937 solid;
+    border-radius: 15px;
+    flex-shrink: 1;
+}
+
+#subtext {
+    display: flex;
+    width: 150px;
+    text-align: center;
+    flex-wrap: wrap;
 }
