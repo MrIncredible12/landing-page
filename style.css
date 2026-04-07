@@ -23,12 +23,9 @@
     background-color: #E5E7EB;
 }
 
-.call-action {
-
-}
-
 .footer {
-
+    padding: 15px;
+    color: #F9FAF8;
 }
 
 .header {
@@ -127,13 +124,14 @@ h2 {
 .card {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
     gap: 5px;
 }
 
 .box {
     width: 150px;
     height: 150px;
-    border: 2px #1F2937 solid;
+    border: 5px #3882F6 solid;
     border-radius: 15px;
     flex-shrink: 1;
 }
@@ -154,4 +152,26 @@ h2 {
 
 strong {
     font-size: 18px;
+}
+
+.call-window {
+    display: flex;
+    margin: 50px 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.button-call {
+    margin: auto;
+    border: 2px #F9FAF8 solid;
 }
